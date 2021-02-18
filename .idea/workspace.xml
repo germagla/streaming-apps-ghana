@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7c27539-85c6-43af-b65c-bf2a9a7206dc" name="Default Changelist" comment="" />
+    <list default="true" id="d7c27539-85c6-43af-b65c-bf2a9a7206dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +23,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613665037588</updated>
       <workItem from="1613665039212" duration="482000" />
-      <workItem from="1613665792649" duration="346000" />
+      <workItem from="1613665792649" duration="1424000" />
     </task>
     <task id="LOCAL-00001" summary="Create gh-pages branch">
       <created>1613666159400</created>
@@ -52,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613666159400</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rename Home.html to index.html for gh pages">
+      <created>1613666438365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613666438365</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create gh-pages branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create gh-pages branch" />
+    <MESSAGE value="Rename Home.html to index.html for gh pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename Home.html to index.html for gh pages" />
   </component>
 </project>
