@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7c27539-85c6-43af-b65c-bf2a9a7206dc" name="Default Changelist" comment="" />
+    <list default="true" id="d7c27539-85c6-43af-b65c-bf2a9a7206dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/streaming-apps-ghana/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -52,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613665037588</updated>
       <workItem from="1613665039212" duration="482000" />
-      <workItem from="1613665792649" duration="1730000" />
+      <workItem from="1613665792649" duration="6151000" />
     </task>
     <task id="LOCAL-00001" summary="Create gh-pages branch">
       <created>1613666159400</created>

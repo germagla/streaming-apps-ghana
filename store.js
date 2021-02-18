@@ -71,8 +71,10 @@ function addItemToCart(title, price, CartitemNumber) {
     cartRow.classList.add('cart-row')
     var cartItems = document.getElementsByClassName('cart-items')[0]
 	
-	var itemNumber= CartitemNumber
+	var itemNumber = CartitemNumber
 	/*document.getElementByClassName('shop-item-number')[0]*/
+
+	
 
 	
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
@@ -92,12 +94,22 @@ function addItemToCart(title, price, CartitemNumber) {
         <div class="cart-quantity cart-column">
             <input class="cart-quantity-input" type="number" value="1">
 		<span class="shop-item-number cart-column">${itemNumber}</span>
-            <button class="btn btn-danger" type="button"><p class="X-button">❌</p></button>
+            <button class="btn btn-danger" type="button">❌</button>
         </div>`
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+	
+	var x = itemNumber.toString();
+	var arrayX = [x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15, x16] = x;
+	
+	
+  document.getElementById("demo").innerHTML = arrayX;
+	
+	
+
+	
 }
 
 function updateCartTotal() {
@@ -132,7 +144,7 @@ function myFunction() {
 }
 
 function SetArrayToVariable() {
-  var itemNumber = ["item 2", "item 5", "item 7", "item 9"];  /*var itemNumber = ["item 2", "item 5", "item 7", "item 9"];*/
-  var x = itemNumber.toString();
-  document.getElementById("demo").innerHTML = x;
+  /*var itemNumber = ["item 2", "item 5", "item 7", "item 9"];  var itemNumber = ["item 2", "item 5", "item 7", "item 9"];
+  var x = CartitemNumber.toString();
+  document.getElementById("demo").innerHTML = x;*/
 }
