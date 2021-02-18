@@ -377,17 +377,18 @@ font-size: 5px
 }
 
 .cart-item {
-    width: 45%;
+    width: 30%;
 }
 
 .cart-price {
-    width: 20%;
+    width: 15%;
     font-size: 1.2em;
     color: #333;
 }
 
 .cart-quantity {
-    width: 35%;
+    width: 15%;
+	text-align: right;
 }
 
 .cart-item-title {
@@ -408,6 +409,13 @@ font-size: 5px
     border: none;
     border-radius: .3em;
     font-weight: bold;
+	text-align: right;
+}
+
+.X-button {
+	height: 1px;
+	width: 20px;
+	
 }
 
 .btn-danger:hover {

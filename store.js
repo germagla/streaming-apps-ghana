@@ -23,10 +23,10 @@ function ready() {
         button.addEventListener('click', addToCartClicked)
     }
 
-    document.getElementsByClassName('btn-clear')[0].addEventListener('click', purchaseClicked)
+    document.getElementsByClassName('btn-clear')[0].addEventListener('click', clearClicked)
 }
 
-function purchaseClicked() {
+function clearClicked() {
     alert('Cart Cleared')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
@@ -55,20 +55,26 @@ function addToCartClicked(event) {
     var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
     var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
 	
-	var cartItemNumber = shopItem.getElementsByClassName('shop-item-number')[0].innerText
-	/* Add Shop Item to Variable then later paste data into copytext section at bottom 
+	var CartitemNumber = shopItem.getElementsByClassName('shop-item-number')[0].innerText
+	/*var cartItemNumber = shopItem.getElementsByClassName('shop-item-number')[0].innerText
+	Add Shop Item to Variable then later paste data into copytext section at bottom 
 	or create array and store the shop-item-number */
 
-    addItemToCart(title, price, cartItemNumber)
+    addItemToCart(title, price, CartitemNumber)
     updateCartTotal()
+
 	
-	document.getElementByClassName("shop-item-number")[0].value = cartItemNumber;
 }
 
-function addItemToCart(title, price, cartItemNumber) {
+function addItemToCart(title, price, CartitemNumber) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
     var cartItems = document.getElementsByClassName('cart-items')[0]
+	
+	var itemNumber= CartitemNumber
+	/*document.getElementByClassName('shop-item-number')[0]*/
+
+	
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
@@ -76,16 +82,17 @@ function addItemToCart(title, price, cartItemNumber) {
             return
         }
     }
+	
 
     var cartRowContents = `
         <div class="cart-item cart-column">
-          
             <span class="cart-item-title">${title}</span>
         </div>
         <span class="cart-price cart-column">${price}</span>
         <div class="cart-quantity cart-column">
             <input class="cart-quantity-input" type="number" value="1">
-            <button class="btn btn-danger" type="button">❌</button>
+		<span class="shop-item-number cart-column">${itemNumber}</span>
+            <button class="btn btn-danger" type="button"><p class="X-button">❌</p></button>
         </div>`
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
@@ -122,4 +129,10 @@ function myFunction() {
 
   /* Alert the copied text */
   alert("Copied the text: " + copyText.value);
+}
+
+function SetArrayToVariable() {
+  var itemNumber = ["item 2", "item 5", "item 7", "item 9"];  /*var itemNumber = ["item 2", "item 5", "item 7", "item 9"];*/
+  var x = itemNumber.toString();
+  document.getElementById("demo").innerHTML = x;
 }
