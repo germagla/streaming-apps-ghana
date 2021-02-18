@@ -1,0 +1,45 @@
+body{
+    /*margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cdcdcd;*/
+}
+.containerMusic {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    /*margin-top: 150px;*/
+    /*transform: rotate(-15deg) skew(2deg) scale(.8);*/
+}
+.containerMusic img {
+    position: absolute;
+    transition: .5s;
+}
+.containerMusic:hover img:nth-child(6){
+    transform: translate(100px, -100px);
+    opacity: 1;
+}
+.containerMusic:hover img:nth-child(5){
+    transform: translate(80px, -80px);
+    opacity: .95;
+}
+.containerMusic:hover img:nth-child(4){
+    transform: translate(60px, -60px);
+    opacity: .85;
+}
+.containerMusic:hover img:nth-child(3){
+    transform: translate(40px, -40px);
+    opacity: .75;
+}
+.containerMusic:hover img:nth-child(2){
+    transform: translate(20px, -20px);
+    opacity: .65;
+}
+.containerMusic:hover img:nth-child(1){
+    transform: translate(0px, -0px);
+    opacity: .55;
+}

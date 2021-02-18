@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="375px" viewBox="0 0 375 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>logo ill</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-13.0%" y="-9.3%" width="126.3%" height="124.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NHL" transform="translate(-651.000000, -1987.000000)">
+            <g id="Group-6-Copy-8" transform="translate(0.000000, 1921.000000)">
+                <g id="Group-4" transform="translate(251.000000, 66.000000)">
+                    <g id="logo-ill" transform="translate(400.000000, 0.000000)">
+                        <g id="Oval-395">
+                            <circle fill="#005AFF" cx="187.5" cy="187.5" r="187.5"></circle>
+                            <circle id="Oval-395-Copy-2" stroke-opacity="0.146908967" stroke="#FFFFFF" fill-opacity="0.25" fill="#FFFFFF" cx="189.109442" cy="189.109442" r="160.139485"></circle>
+                            <circle id="Oval-395-Copy" stroke-opacity="0.146908967" stroke="#FFFFFF" fill-opacity="0.25" fill="#FFFFFF" cx="189.109442" cy="189.109442" r="134.388412"></circle>
+                        </g>
+                        <g id="Imported-Layers" filter="url(#filter-1)" transform="translate(90.202703, 82.094595)">
+                            <path d="M18.3021921,32.4284203 C8.25625535,34.4310308 0.914313012,42.9911073 0.631964657,53.1671432 C-0.409803412,90.6558396 6.13465972,180.391865 82.4731579,206.477819 C87.4279733,208.170935 92.6323881,209.038733 97.8704369,209.038733 C103.109371,209.038733 108.312901,208.170935 113.267716,206.477819 C189.607099,180.391865 196.151562,90.6558396 195.109794,53.1671432 C194.826561,42.9911073 187.485504,34.4310308 177.438682,32.4284203 C145.065097,25.9767199 120.099838,11.7053021 109.796336,5.08888486 C106.241756,2.80625558 102.103007,0.445602524 97.8704369,0.445602524 C93.638752,0.445602524 89.5000031,2.80625558 85.9454231,5.08888486 C75.6410358,11.7053021 50.6766617,25.9767199 18.3021921,32.4284203" id="Fill-1" fill="#FFFFFF"></path>
+                            <path d="M128.530275,98.3186425 C128.530275,93.6584326 132.387651,89.8809874 137.144809,89.8809874 C141.903456,89.8809874 145.760088,93.6584326 145.760088,98.3186425" id="Stroke-3" stroke="#555555" stroke-width="3" stroke-linecap="round"></path>
+                            <path d="M49.9816704,98.3186425 C49.9816704,93.6584326 53.8390469,89.8809874 58.5969493,89.8809874 C63.3541075,89.8809874 67.2114841,93.6584326 67.2114841,98.3186425" id="Stroke-5" stroke="#555555" stroke-width="3" stroke-linecap="round"></path>
+                            <path d="M118.160574,134.454927 C117.307333,144.237376 108.719164,151.923586 98.2510319,151.923586 C87.7829002,151.923586 79.1947306,144.237376 78.3414898,134.454927 C78.2671411,133.59233 78.9805353,132.851104 79.8868824,132.851104 L116.615181,132.851104 C117.521528,132.851104 118.235808,133.59233 118.160574,134.454927" id="Fill-7" fill="#555555"></path>
+                            <path d="M112.855257,139.020185 L83.6468066,139.020185 C82.1801883,139.020185 80.9914929,137.855897 80.9914929,136.419392 L80.9914929,135.552461 L115.510571,135.552461 L115.510571,136.419392 C115.510571,137.855897 114.321875,139.020185 112.855257,139.020185" id="Fill-8" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

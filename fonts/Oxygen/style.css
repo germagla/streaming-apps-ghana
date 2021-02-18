@@ -1,0 +1,21 @@
+@font-face {
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///C:/Users/TheCeiling/Desktop/StreamingAppsGhana/Updated%202x/fonts/Oxygen/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/TheCeiling/Desktop/StreamingAppsGhana/Updated%202x/fonts/Oxygen/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Oxygen';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/TheCeiling/Desktop/StreamingAppsGhana/Updated%202x/fonts/Oxygen/regular.ttf') format('truetype');
+}
