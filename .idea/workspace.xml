@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7c27539-85c6-43af-b65c-bf2a9a7206dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,9 @@
       <option name="presentableId" value="Default" />
       <updated>1613665037588</updated>
       <workItem from="1613665039212" duration="482000" />
-      <workItem from="1613665792649" duration="6151000" />
+      <workItem from="1613665792649" duration="6877000" />
+      <workItem from="1577836867803" duration="4616000" />
+      <workItem from="1613768085172" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="Create gh-pages branch">
       <created>1613666159400</created>
@@ -91,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
